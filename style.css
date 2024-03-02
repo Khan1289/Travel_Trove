@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+:root{
+    --primary-color: #FF5400;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 8% 0 8%;
+
+}
+.title{
+    display: flex;
+    width: 40%;
+}
+.title img{
+   height: 100%;
+}
+
+.trove{
+    color: var(--primary-color);
+}
+.title h1{
+    padding-top: 1%;
+    margin-left: 2%;
+}
+
+.navbar{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 5%;
+    color: #424247;
+    font-size: 1.2rem;
+}
+.navbar .home{
+    color: var(--primary-color);
+}
