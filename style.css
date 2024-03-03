@@ -3,6 +3,7 @@
 }
 :root{
     --primary-color: #FF5400;
+    --text-color: rgba(19,19,24,0.70);
 }
 header{
     display: flex;
@@ -72,9 +73,9 @@ header{
     border-radius: 5px;
 }
 .hero-input{
-    height: 30px;
+    height: 40px;
     width: 20%;
-    margin-left: 20px;
+    margin-left: 15px;
     padding-left: 10px;
     color: #13131882;
     border-radius: 5px;
@@ -91,3 +92,102 @@ header{
     font-size: 16px;
     font-weight: bold;
 }
+
+/* tour section */
+
+.tour{
+  display: flex;
+  margin: 8% 8% 0 8%;
+  gap: 5%;
+}
+.tour-text{
+    width: 45%;
+}
+.tour img{
+    width: 100%;
+    height: 700px;
+}
+.tour h1{
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+}
+.tour p{
+    color: var(--text-color);
+}
+.tour ul{
+    margin: 4% 0;
+}
+.tour li{
+    margin-bottom: 2%;
+}
+.tour-btn{
+    height: 50px;
+    width: 170px;
+    margin-top: 4%;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.destination{
+    margin: 2% 8% 0 8%;
+    background-color: #FF5400;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  footer.footer {
+    /* Additional styles for the upper footer section */
+    margin-top: 20px;
+  }
+  
+  .footer img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0 15% 0 15%;
+  }
+  
+  .link img {
+    width: 30px;
+    height: 30px;
+    margin: 30px 5px;
+  }
+  
+  .footer-foot {
+    /* Styles for the copyright section */
+    text-align: center;
+    color: var(--text-color);
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  hr{
+    border: 1px solid rgba(19,19,24,0.15);
+    width: 100%;
+}
+  
+  /* Other styles remain the same */
+ 
+  
+ 
